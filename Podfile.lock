@@ -302,12 +302,14 @@ PODS:
     - nanopb/encode (= 2.30907.0)
   - nanopb/decode (2.30907.0)
   - nanopb/encode (2.30907.0)
+  - NavigationStack (1.0.2)
   - PromisesObjC (1.2.12)
 
 DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Firestore
   - FirebaseFirestoreSwift (~> 7.0-beta)
+  - NavigationStack
 
 SPEC REPOS:
   trunk:
@@ -326,6 +328,7 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
+    - NavigationStack
     - PromisesObjC
 
 SPEC CHECKSUMS:
@@ -344,8 +347,9 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 59221d7f958fb711001e6a449489542d92ae113e
+  NavigationStack: bb6c4f3d1b9fe92f1f6d47370f73c9233ad56272
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
 
-PODFILE CHECKSUM: 0e69c162f7b41738f80b0e5e7c197065c8582f85
+PODFILE CHECKSUM: 3d6468a3c565a78909efb04408c16443df5c449a
 
 COCOAPODS: 1.10.1

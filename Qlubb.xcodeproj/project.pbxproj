@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322A609325F30A2D0051FC7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 322A609225F30A2D0051FC7C /* GoogleService-Info.plist */; };
+		322A60AD25F30C6D0051FC7C /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A60AC25F30C6D0051FC7C /* TitleView.swift */; };
+		322A60B225F30C7B0051FC7C /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A60B125F30C7B0051FC7C /* AuthView.swift */; };
 		32BBFFB825F306B200CE4989 /* QlubbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBFFB725F306B200CE4989 /* QlubbApp.swift */; };
 		32BBFFBA25F306B200CE4989 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBFFB925F306B200CE4989 /* ContentView.swift */; };
 		32BBFFBC25F306B400CE4989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BBFFBB25F306B400CE4989 /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		2F0514FCA4AFF233E11E6216 /* Pods-Qlubb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qlubb.debug.xcconfig"; path = "Target Support Files/Pods-Qlubb/Pods-Qlubb.debug.xcconfig"; sourceTree = "<group>"; };
+		322A609225F30A2D0051FC7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Qlubb/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		322A60AC25F30C6D0051FC7C /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		322A60B125F30C7B0051FC7C /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		32BBFFB425F306B200CE4989 /* Qlubb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qlubb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BBFFB725F306B200CE4989 /* QlubbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QlubbApp.swift; sourceTree = "<group>"; };
 		32BBFFB925F306B200CE4989 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,9 +103,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		322A60AB25F30C580051FC7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				322A60AC25F30C6D0051FC7C /* TitleView.swift */,
+				322A60B125F30C7B0051FC7C /* AuthView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		32BBFFAB25F306B200CE4989 = {
 			isa = PBXGroup;
 			children = (
+				322A609225F30A2D0051FC7C /* GoogleService-Info.plist */,
 				32BBFFB625F306B200CE4989 /* Qlubb */,
 				32BBFFC825F306B500CE4989 /* QlubbTests */,
 				32BBFFD325F306B500CE4989 /* QlubbUITests */,
@@ -122,6 +138,7 @@
 		32BBFFB625F306B200CE4989 /* Qlubb */ = {
 			isa = PBXGroup;
 			children = (
+				322A60AB25F30C580051FC7C /* Views */,
 				32BBFFB725F306B200CE4989 /* QlubbApp.swift */,
 				32BBFFB925F306B200CE4989 /* ContentView.swift */,
 				32BBFFBB25F306B400CE4989 /* Assets.xcassets */,
@@ -167,7 +184,6 @@
 				B4815EDBBC2D27F83AA8168E /* Pods-QlubbTests.debug.xcconfig */,
 				9A2A71C8BAFA6593AABD0D83 /* Pods-QlubbTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -281,6 +297,7 @@
 			files = (
 				32BBFFBF25F306B400CE4989 /* Preview Assets.xcassets in Resources */,
 				32BBFFBC25F306B400CE4989 /* Assets.xcassets in Resources */,
+				322A609325F30A2D0051FC7C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +427,8 @@
 			files = (
 				32BBFFBA25F306B200CE4989 /* ContentView.swift in Sources */,
 				32BBFFB825F306B200CE4989 /* QlubbApp.swift in Sources */,
+				322A60B225F30C7B0051FC7C /* AuthView.swift in Sources */,
+				322A60AD25F30C6D0051FC7C /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

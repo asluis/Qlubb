@@ -4,6 +4,7 @@
 target 'Qlubb' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+  pod 'NavigationStack'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'FirebaseFirestoreSwift', '~> 7.0-beta'
