@@ -1,0 +1,6 @@
+framework module Pods_Qlubb_QlubbUITests {
+  umbrella header "Pods-Qlubb-QlubbUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

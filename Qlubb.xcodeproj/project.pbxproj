@@ -13,6 +13,9 @@
 		32BBFFBF25F306B400CE4989 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BBFFBE25F306B400CE4989 /* Preview Assets.xcassets */; };
 		32BBFFCA25F306B500CE4989 /* QlubbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBFFC925F306B500CE4989 /* QlubbTests.swift */; };
 		32BBFFD525F306B500CE4989 /* QlubbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBFFD425F306B500CE4989 /* QlubbUITests.swift */; };
+		BD1A5CEC82F59021A572A3D4 /* Pods_Qlubb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A229A9DD9FABA5081E3492 /* Pods_Qlubb.framework */; };
+		ECD6D73CA8182DA522C38E87 /* Pods_QlubbTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ACAB0B57046FCE64C653CC /* Pods_QlubbTests.framework */; };
+		F17292DA9A4357B841ED44A6 /* Pods_Qlubb_QlubbUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8F60BCD35F5A21A209E08C /* Pods_Qlubb_QlubbUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F0514FCA4AFF233E11E6216 /* Pods-Qlubb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qlubb.debug.xcconfig"; path = "Target Support Files/Pods-Qlubb/Pods-Qlubb.debug.xcconfig"; sourceTree = "<group>"; };
 		32BBFFB425F306B200CE4989 /* Qlubb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qlubb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BBFFB725F306B200CE4989 /* QlubbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QlubbApp.swift; sourceTree = "<group>"; };
 		32BBFFB925F306B200CE4989 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,14 @@
 		32BBFFD025F306B500CE4989 /* QlubbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QlubbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BBFFD425F306B500CE4989 /* QlubbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QlubbUITests.swift; sourceTree = "<group>"; };
 		32BBFFD625F306B500CE4989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437AF3047D06E8B6C1920747 /* Pods-Qlubb-QlubbUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qlubb-QlubbUITests.release.xcconfig"; path = "Target Support Files/Pods-Qlubb-QlubbUITests/Pods-Qlubb-QlubbUITests.release.xcconfig"; sourceTree = "<group>"; };
+		45A229A9DD9FABA5081E3492 /* Pods_Qlubb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qlubb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ACAB0B57046FCE64C653CC /* Pods_QlubbTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QlubbTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2A71C8BAFA6593AABD0D83 /* Pods-QlubbTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QlubbTests.release.xcconfig"; path = "Target Support Files/Pods-QlubbTests/Pods-QlubbTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4815EDBBC2D27F83AA8168E /* Pods-QlubbTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QlubbTests.debug.xcconfig"; path = "Target Support Files/Pods-QlubbTests/Pods-QlubbTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD8F60BCD35F5A21A209E08C /* Pods_Qlubb_QlubbUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qlubb_QlubbUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9B6E73E2F1EBAB95C5DCE4 /* Pods-Qlubb-QlubbUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qlubb-QlubbUITests.debug.xcconfig"; path = "Target Support Files/Pods-Qlubb-QlubbUITests/Pods-Qlubb-QlubbUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E205031403B4C8794C5F8BCE /* Pods-Qlubb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qlubb.release.xcconfig"; path = "Target Support Files/Pods-Qlubb/Pods-Qlubb.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1A5CEC82F59021A572A3D4 /* Pods_Qlubb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD6D73CA8182DA522C38E87 /* Pods_QlubbTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17292DA9A4357B841ED44A6 /* Pods_Qlubb_QlubbUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D5608E17355B5B934FC1417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45A229A9DD9FABA5081E3492 /* Pods_Qlubb.framework */,
+				BD8F60BCD35F5A21A209E08C /* Pods_Qlubb_QlubbUITests.framework */,
+				70ACAB0B57046FCE64C653CC /* Pods_QlubbTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		32BBFFAB25F306B200CE4989 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +104,8 @@
 				32BBFFC825F306B500CE4989 /* QlubbTests */,
 				32BBFFD325F306B500CE4989 /* QlubbUITests */,
 				32BBFFB525F306B200CE4989 /* Products */,
+				EECE5E7E988B73AF2B78949B /* Pods */,
+				1D5608E17355B5B934FC1417 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +157,20 @@
 			path = QlubbUITests;
 			sourceTree = "<group>";
 		};
+		EECE5E7E988B73AF2B78949B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F0514FCA4AFF233E11E6216 /* Pods-Qlubb.debug.xcconfig */,
+				E205031403B4C8794C5F8BCE /* Pods-Qlubb.release.xcconfig */,
+				DE9B6E73E2F1EBAB95C5DCE4 /* Pods-Qlubb-QlubbUITests.debug.xcconfig */,
+				437AF3047D06E8B6C1920747 /* Pods-Qlubb-QlubbUITests.release.xcconfig */,
+				B4815EDBBC2D27F83AA8168E /* Pods-QlubbTests.debug.xcconfig */,
+				9A2A71C8BAFA6593AABD0D83 /* Pods-QlubbTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32BBFFD925F306B500CE4989 /* Build configuration list for PBXNativeTarget "Qlubb" */;
 			buildPhases = (
+				C79432358E2F08472BFBC9CF /* [CP] Check Pods Manifest.lock */,
 				32BBFFB025F306B200CE4989 /* Sources */,
 				32BBFFB125F306B200CE4989 /* Frameworks */,
 				32BBFFB225F306B200CE4989 /* Resources */,
+				530E476FB21D91E618BF0332 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32BBFFDC25F306B500CE4989 /* Build configuration list for PBXNativeTarget "QlubbTests" */;
 			buildPhases = (
+				299ED3E559FEA323CAA4E87C /* [CP] Check Pods Manifest.lock */,
 				32BBFFC125F306B500CE4989 /* Sources */,
 				32BBFFC225F306B500CE4989 /* Frameworks */,
 				32BBFFC325F306B500CE4989 /* Resources */,
@@ -172,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32BBFFDF25F306B500CE4989 /* Build configuration list for PBXNativeTarget "QlubbUITests" */;
 			buildPhases = (
+				1E15E61A143AA3FF90080CD1 /* [CP] Check Pods Manifest.lock */,
 				32BBFFCC25F306B500CE4989 /* Sources */,
 				32BBFFCD25F306B500CE4989 /* Frameworks */,
 				32BBFFCE25F306B500CE4989 /* Resources */,
+				E73000A3F96093B72BD27F54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E15E61A143AA3FF90080CD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qlubb-QlubbUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		299ED3E559FEA323CAA4E87C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QlubbTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		530E476FB21D91E618BF0332 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qlubb/Pods-Qlubb-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qlubb/Pods-Qlubb-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qlubb/Pods-Qlubb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C79432358E2F08472BFBC9CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qlubb-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E73000A3F96093B72BD27F54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qlubb-QlubbUITests/Pods-Qlubb-QlubbUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qlubb-QlubbUITests/Pods-Qlubb-QlubbUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qlubb-QlubbUITests/Pods-Qlubb-QlubbUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32BBFFB025F306B200CE4989 /* Sources */ = {
@@ -414,6 +563,7 @@
 		};
 		32BBFFDA25F306B500CE4989 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0514FCA4AFF233E11E6216 /* Pods-Qlubb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +586,7 @@
 		};
 		32BBFFDB25F306B500CE4989 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E205031403B4C8794C5F8BCE /* Pods-Qlubb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +609,7 @@
 		};
 		32BBFFDD25F306B500CE4989 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4815EDBBC2D27F83AA8168E /* Pods-QlubbTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +632,7 @@
 		};
 		32BBFFDE25F306B500CE4989 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A2A71C8BAFA6593AABD0D83 /* Pods-QlubbTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +655,7 @@
 		};
 		32BBFFE025F306B500CE4989 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9B6E73E2F1EBAB95C5DCE4 /* Pods-Qlubb-QlubbUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +676,7 @@
 		};
 		32BBFFE125F306B500CE4989 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437AF3047D06E8B6C1920747 /* Pods-Qlubb-QlubbUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
