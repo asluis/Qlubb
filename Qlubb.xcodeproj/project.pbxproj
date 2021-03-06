@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32BBFFB825F306B200CE4989 /* QlubbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBFFB725F306B200CE4989 /* QlubbApp.swift */; };
+		32BBFFBA25F306B200CE4989 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBFFB925F306B200CE4989 /* ContentView.swift */; };
+		32BBFFBC25F306B400CE4989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BBFFBB25F306B400CE4989 /* Assets.xcassets */; };
+		32BBFFBF25F306B400CE4989 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BBFFBE25F306B400CE4989 /* Preview Assets.xcassets */; };
+		32BBFFCA25F306B500CE4989 /* QlubbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBFFC925F306B500CE4989 /* QlubbTests.swift */; };
+		32BBFFD525F306B500CE4989 /* QlubbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBFFD425F306B500CE4989 /* QlubbUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32BBFFC625F306B500CE4989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BBFFAC25F306B200CE4989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BBFFB325F306B200CE4989;
+			remoteInfo = Qlubb;
+		};
+		32BBFFD125F306B500CE4989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BBFFAC25F306B200CE4989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BBFFB325F306B200CE4989;
+			remoteInfo = Qlubb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32BBFFB425F306B200CE4989 /* Qlubb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qlubb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BBFFB725F306B200CE4989 /* QlubbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QlubbApp.swift; sourceTree = "<group>"; };
+		32BBFFB925F306B200CE4989 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32BBFFBB25F306B400CE4989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32BBFFBE25F306B400CE4989 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32BBFFC025F306B400CE4989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BBFFC525F306B500CE4989 /* QlubbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QlubbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BBFFC925F306B500CE4989 /* QlubbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QlubbTests.swift; sourceTree = "<group>"; };
+		32BBFFCB25F306B500CE4989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BBFFD025F306B500CE4989 /* QlubbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QlubbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BBFFD425F306B500CE4989 /* QlubbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QlubbUITests.swift; sourceTree = "<group>"; };
+		32BBFFD625F306B500CE4989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32BBFFB125F306B200CE4989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BBFFC225F306B500CE4989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BBFFCD25F306B500CE4989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32BBFFAB25F306B200CE4989 = {
+			isa = PBXGroup;
+			children = (
+				32BBFFB625F306B200CE4989 /* Qlubb */,
+				32BBFFC825F306B500CE4989 /* QlubbTests */,
+				32BBFFD325F306B500CE4989 /* QlubbUITests */,
+				32BBFFB525F306B200CE4989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32BBFFB525F306B200CE4989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32BBFFB425F306B200CE4989 /* Qlubb.app */,
+				32BBFFC525F306B500CE4989 /* QlubbTests.xctest */,
+				32BBFFD025F306B500CE4989 /* QlubbUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32BBFFB625F306B200CE4989 /* Qlubb */ = {
+			isa = PBXGroup;
+			children = (
+				32BBFFB725F306B200CE4989 /* QlubbApp.swift */,
+				32BBFFB925F306B200CE4989 /* ContentView.swift */,
+				32BBFFBB25F306B400CE4989 /* Assets.xcassets */,
+				32BBFFC025F306B400CE4989 /* Info.plist */,
+				32BBFFBD25F306B400CE4989 /* Preview Content */,
+			);
+			path = Qlubb;
+			sourceTree = "<group>";
+		};
+		32BBFFBD25F306B400CE4989 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32BBFFBE25F306B400CE4989 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32BBFFC825F306B500CE4989 /* QlubbTests */ = {
+			isa = PBXGroup;
+			children = (
+				32BBFFC925F306B500CE4989 /* QlubbTests.swift */,
+				32BBFFCB25F306B500CE4989 /* Info.plist */,
+			);
+			path = QlubbTests;
+			sourceTree = "<group>";
+		};
+		32BBFFD325F306B500CE4989 /* QlubbUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32BBFFD425F306B500CE4989 /* QlubbUITests.swift */,
+				32BBFFD625F306B500CE4989 /* Info.plist */,
+			);
+			path = QlubbUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32BBFFB325F306B200CE4989 /* Qlubb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BBFFD925F306B500CE4989 /* Build configuration list for PBXNativeTarget "Qlubb" */;
+			buildPhases = (
+				32BBFFB025F306B200CE4989 /* Sources */,
+				32BBFFB125F306B200CE4989 /* Frameworks */,
+				32BBFFB225F306B200CE4989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qlubb;
+			productName = Qlubb;
+			productReference = 32BBFFB425F306B200CE4989 /* Qlubb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32BBFFC425F306B500CE4989 /* QlubbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BBFFDC25F306B500CE4989 /* Build configuration list for PBXNativeTarget "QlubbTests" */;
+			buildPhases = (
+				32BBFFC125F306B500CE4989 /* Sources */,
+				32BBFFC225F306B500CE4989 /* Frameworks */,
+				32BBFFC325F306B500CE4989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BBFFC725F306B500CE4989 /* PBXTargetDependency */,
+			);
+			name = QlubbTests;
+			productName = QlubbTests;
+			productReference = 32BBFFC525F306B500CE4989 /* QlubbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32BBFFCF25F306B500CE4989 /* QlubbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BBFFDF25F306B500CE4989 /* Build configuration list for PBXNativeTarget "QlubbUITests" */;
+			buildPhases = (
+				32BBFFCC25F306B500CE4989 /* Sources */,
+				32BBFFCD25F306B500CE4989 /* Frameworks */,
+				32BBFFCE25F306B500CE4989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BBFFD225F306B500CE4989 /* PBXTargetDependency */,
+			);
+			name = QlubbUITests;
+			productName = QlubbUITests;
+			productReference = 32BBFFD025F306B500CE4989 /* QlubbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32BBFFAC25F306B200CE4989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					32BBFFB325F306B200CE4989 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					32BBFFC425F306B500CE4989 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 32BBFFB325F306B200CE4989;
+					};
+					32BBFFCF25F306B500CE4989 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 32BBFFB325F306B200CE4989;
+					};
+				};
+			};
+			buildConfigurationList = 32BBFFAF25F306B200CE4989 /* Build configuration list for PBXProject "Qlubb" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32BBFFAB25F306B200CE4989;
+			productRefGroup = 32BBFFB525F306B200CE4989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32BBFFB325F306B200CE4989 /* Qlubb */,
+				32BBFFC425F306B500CE4989 /* QlubbTests */,
+				32BBFFCF25F306B500CE4989 /* QlubbUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32BBFFB225F306B200CE4989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BBFFBF25F306B400CE4989 /* Preview Assets.xcassets in Resources */,
+				32BBFFBC25F306B400CE4989 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BBFFC325F306B500CE4989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BBFFCE25F306B500CE4989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BBFFB025F306B200CE4989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BBFFBA25F306B200CE4989 /* ContentView.swift in Sources */,
+				32BBFFB825F306B200CE4989 /* QlubbApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BBFFC125F306B500CE4989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BBFFCA25F306B500CE4989 /* QlubbTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BBFFCC25F306B500CE4989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BBFFD525F306B500CE4989 /* QlubbUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32BBFFC725F306B500CE4989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BBFFB325F306B200CE4989 /* Qlubb */;
+			targetProxy = 32BBFFC625F306B500CE4989 /* PBXContainerItemProxy */;
+		};
+		32BBFFD225F306B500CE4989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BBFFB325F306B200CE4989 /* Qlubb */;
+			targetProxy = 32BBFFD125F306B500CE4989 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32BBFFD725F306B500CE4989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32BBFFD825F306B500CE4989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32BBFFDA25F306B500CE4989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Qlubb/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Qlubb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qlubb.Qlubb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32BBFFDB25F306B500CE4989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Qlubb/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Qlubb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qlubb.Qlubb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32BBFFDD25F306B500CE4989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				INFOPLIST_FILE = QlubbTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qlubb.QlubbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qlubb.app/Qlubb";
+			};
+			name = Debug;
+		};
+		32BBFFDE25F306B500CE4989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				INFOPLIST_FILE = QlubbTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qlubb.QlubbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qlubb.app/Qlubb";
+			};
+			name = Release;
+		};
+		32BBFFE025F306B500CE4989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				INFOPLIST_FILE = QlubbUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qlubb.QlubbUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Qlubb;
+			};
+			name = Debug;
+		};
+		32BBFFE125F306B500CE4989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				INFOPLIST_FILE = QlubbUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qlubb.QlubbUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Qlubb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32BBFFAF25F306B200CE4989 /* Build configuration list for PBXProject "Qlubb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BBFFD725F306B500CE4989 /* Debug */,
+				32BBFFD825F306B500CE4989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BBFFD925F306B500CE4989 /* Build configuration list for PBXNativeTarget "Qlubb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BBFFDA25F306B500CE4989 /* Debug */,
+				32BBFFDB25F306B500CE4989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BBFFDC25F306B500CE4989 /* Build configuration list for PBXNativeTarget "QlubbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BBFFDD25F306B500CE4989 /* Debug */,
+				32BBFFDE25F306B500CE4989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BBFFDF25F306B500CE4989 /* Build configuration list for PBXNativeTarget "QlubbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BBFFE025F306B500CE4989 /* Debug */,
+				32BBFFE125F306B500CE4989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32BBFFAC25F306B200CE4989 /* Project object */;
+}
