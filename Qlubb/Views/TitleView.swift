@@ -8,8 +8,33 @@
 import SwiftUI
 
 struct TitleView: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                Text("Qlubb")
+                    .font(.largeTitle)
+                    .padding()
+                
+                Divider()
+                Spacer()
+                
+                NavigationLink(
+                    destination: AuthView(),
+                    label: {
+                        CustomStyledText(title: "Sign in")
+                    })
+                
+                NavigationLink(
+                    destination: RegisterView(),
+                    label: {
+                        CustomStyledText(title: "Register")
+                            .padding(.bottom)
+                    })
+            }
+            .navigationTitle("")
+            .navigationBarHidden(true)
+        }
     }
 }
 

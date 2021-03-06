@@ -9,7 +9,13 @@
 /* Begin PBXBuildFile section */
 		322A609325F30A2D0051FC7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 322A609225F30A2D0051FC7C /* GoogleService-Info.plist */; };
 		322A60AD25F30C6D0051FC7C /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A60AC25F30C6D0051FC7C /* TitleView.swift */; };
-		322A60B225F30C7B0051FC7C /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A60B125F30C7B0051FC7C /* AuthView.swift */; };
+		322A60B225F30C7B0051FC7C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A60B125F30C7B0051FC7C /* SignInView.swift */; };
+		322A60E725F310C90051FC7C /* CustomStyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A60E625F310C90051FC7C /* CustomStyledButton.swift */; };
+		322A60ED25F313840051FC7C /* CustomStyledText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A60EC25F313840051FC7C /* CustomStyledText.swift */; };
+		322A60F525F314600051FC7C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A60F425F314600051FC7C /* RegisterView.swift */; };
+		322A60FA25F318140051FC7C /* CustomStyledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A60F925F318140051FC7C /* CustomStyledTextField.swift */; };
+		3269D87125F31A4E00BE3C7E /* UIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3269D87025F31A4E00BE3C7E /* UIDView.swift */; };
+		3269D87925F3270500BE3C7E /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3269D87825F3270500BE3C7E /* ForgotPasswordView.swift */; };
 		32BBFFB825F306B200CE4989 /* QlubbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBFFB725F306B200CE4989 /* QlubbApp.swift */; };
 		32BBFFBA25F306B200CE4989 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BBFFB925F306B200CE4989 /* ContentView.swift */; };
 		32BBFFBC25F306B400CE4989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BBFFBB25F306B400CE4989 /* Assets.xcassets */; };
@@ -42,7 +48,13 @@
 		2F0514FCA4AFF233E11E6216 /* Pods-Qlubb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qlubb.debug.xcconfig"; path = "Target Support Files/Pods-Qlubb/Pods-Qlubb.debug.xcconfig"; sourceTree = "<group>"; };
 		322A609225F30A2D0051FC7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Qlubb/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		322A60AC25F30C6D0051FC7C /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
-		322A60B125F30C7B0051FC7C /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		322A60B125F30C7B0051FC7C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		322A60E625F310C90051FC7C /* CustomStyledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyledButton.swift; sourceTree = "<group>"; };
+		322A60EC25F313840051FC7C /* CustomStyledText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyledText.swift; sourceTree = "<group>"; };
+		322A60F425F314600051FC7C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		322A60F925F318140051FC7C /* CustomStyledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyledTextField.swift; sourceTree = "<group>"; };
+		3269D87025F31A4E00BE3C7E /* UIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDView.swift; sourceTree = "<group>"; };
+		3269D87825F3270500BE3C7E /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		32BBFFB425F306B200CE4989 /* Qlubb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qlubb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BBFFB725F306B200CE4989 /* QlubbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QlubbApp.swift; sourceTree = "<group>"; };
 		32BBFFB925F306B200CE4989 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,10 +118,32 @@
 		322A60AB25F30C580051FC7C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3269D87D25F3270A00BE3C7E /* Auth */,
+				322A60EB25F3136C0051FC7C /* Helpers */,
 				322A60AC25F30C6D0051FC7C /* TitleView.swift */,
-				322A60B125F30C7B0051FC7C /* AuthView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		322A60EB25F3136C0051FC7C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				322A60E625F310C90051FC7C /* CustomStyledButton.swift */,
+				322A60EC25F313840051FC7C /* CustomStyledText.swift */,
+				322A60F925F318140051FC7C /* CustomStyledTextField.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3269D87D25F3270A00BE3C7E /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				322A60B125F30C7B0051FC7C /* SignInView.swift */,
+				322A60F425F314600051FC7C /* RegisterView.swift */,
+				3269D87025F31A4E00BE3C7E /* UIDView.swift */,
+				3269D87825F3270500BE3C7E /* ForgotPasswordView.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		32BBFFAB25F306B200CE4989 = {
@@ -426,9 +460,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				32BBFFBA25F306B200CE4989 /* ContentView.swift in Sources */,
+				322A60E725F310C90051FC7C /* CustomStyledButton.swift in Sources */,
 				32BBFFB825F306B200CE4989 /* QlubbApp.swift in Sources */,
-				322A60B225F30C7B0051FC7C /* AuthView.swift in Sources */,
+				3269D87125F31A4E00BE3C7E /* UIDView.swift in Sources */,
+				322A60F525F314600051FC7C /* RegisterView.swift in Sources */,
+				322A60B225F30C7B0051FC7C /* SignInView.swift in Sources */,
+				322A60ED25F313840051FC7C /* CustomStyledText.swift in Sources */,
 				322A60AD25F30C6D0051FC7C /* TitleView.swift in Sources */,
+				3269D87925F3270500BE3C7E /* ForgotPasswordView.swift in Sources */,
+				322A60FA25F318140051FC7C /* CustomStyledTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
