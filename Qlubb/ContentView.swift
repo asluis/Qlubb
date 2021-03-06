@@ -12,7 +12,12 @@ struct ContentView: View {
     var body: some View {
         if Auth.auth().currentUser != nil {
             // User is signed in
-            UIDView()
+            
+            if Auth.auth().currentUser?.displayName == nil {
+                ChangeDisplayNameView()
+            } else {
+                UIDView()
+            }
         } else {
             // User is not signed in
             TitleView()

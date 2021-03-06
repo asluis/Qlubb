@@ -11,7 +11,7 @@ struct CustomStyledTextField: View {
     @Binding var text: String
     let placeholder: String
     let symbolName: String
-    let isSecure : Bool
+    let isSecure: Bool
     
     var body: some View {
         HStack {

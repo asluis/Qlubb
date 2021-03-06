@@ -92,7 +92,7 @@ struct RegisterView: View {
                         // User creation successful, push to next view
                         sleep(UInt32(0.5))
                         user.sendEmailVerification(completion: nil)
-                        self.navigationStack.push(UIDView())
+                        self.navigationStack.push(ChangeDisplayNameView())
                     }
                 } else {
                     alertTitle = "Passwords don't match"
